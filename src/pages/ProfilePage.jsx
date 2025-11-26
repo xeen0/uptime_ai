@@ -55,14 +55,17 @@ export default function ProfilePage() {
 
   return (
     <div className="p-6 w-full">
-      <form onSubmit={handleSearch} className="mb-8 flex gap-3">
+      <form onSubmit={handleSearch} className="flex gap-3 mb-10">
         <input
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          className="border px-3 py-2 rounded"
-          placeholder="Search GitHub username"
+          className="flex-1 px-4 py-3 rounded-xl border-2 border-gray-200 transition-all duration-300"
+          placeholder="Enter GitHub username"
         />
-        <button className="bg-blue-600 text-white px-4 py-2 rounded">Search</button>
+        <button 
+            className="px-6 py-3 cursor-pointer rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-medium  transition-all duration-300"
+            type="submit"
+        >Search</button>
       </form>
 
       {loading && <p className="text-gray-500">Loading…</p>}
