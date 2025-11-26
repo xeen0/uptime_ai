@@ -19,6 +19,7 @@ export default function SearchPage() {
 
         <form onSubmit={handleSearch} className="flex gap-3">
           <input
+            type="text"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
             className="flex-1 px-4 py-3 rounded-xl border-2 border-gray-200 transition-all duration-300"

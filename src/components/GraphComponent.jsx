@@ -18,12 +18,11 @@ export default function GraphComponent({ username }) {
       setSelectedYear(yearList[0]);
     }
     fetchData();
-    
   }, [username]);
 
   if (!values) {
     return (
-      <div className="mt-6 border rounded-lg p-4 shadow-sm bg-white">
+      <div className="mt-6 border rounded-xl p-5 shadow-sm bg-white">
         <p className="text-gray-500">Loading contributions…</p>
       </div>
     );
@@ -34,11 +33,14 @@ export default function GraphComponent({ username }) {
   const endDate = filtered[filtered.length - 1]?.date;
 
   return (
-    <div className="mt-6 border rounded-lg p-4 shadow-sm bg-white">
+    <div className="mt-6 border rounded-xl p-6 shadow-sm bg-white">
       <div className="flex justify-between items-center mb-5">
-        <h2 className="text-lg font-semibold text-gray-800">Contributions</h2>
+        <h2 className="text-lg font-semibold text-gray-700">
+          Contributions
+        </h2>
+
         <select
-          className="border px-3 py-1.5 rounded text-sm bg-gray-50 hover:bg-gray-100 transition"
+          className="border px-3 py-2 rounded-lg text-sm bg-white hover:bg-gray-50 transition shadow-sm"
           value={selectedYear}
           onChange={(e) => setSelectedYear(e.target.value)}
         >
@@ -66,16 +68,20 @@ export default function GraphComponent({ username }) {
           />
         </div>
       </div>
+
       <div className="flex items-center justify-between mt-4">
-        <p className="text-xs text-gray-500">Showing contributions for {selectedYear}</p>
+        <p className="text-xs text-gray-500">
+          Showing contributions for {selectedYear}
+        </p>
+
         <div className="flex items-center gap-2 text-xs text-gray-500">
           <span>Less</span>
           <div className="flex gap-1">
-            <div className="w-2.5 h-2.5 rounded-sm bg-[#ebedf0]"></div>
-            <div className="w-2.5 h-2.5 rounded-sm bg-[#9be9a8]"></div>
-            <div class="w-2.5 h-2.5 rounded-sm bg-[#40c463]"></div>
-            <div class="w-2.5 h-2.5 rounded-sm bg-[#30a14e]"></div>
-            <div class="w-2.5 h-2.5 rounded-sm bg-[#216e39]"></div>
+            <div className="w-3 h-3 rounded-sm bg-[#ebedf0]"></div>
+            <div className="w-3 h-3 rounded-sm bg-[#c6e48b]"></div>
+            <div className="w-3 h-3 rounded-sm bg-[#7bc96f]"></div>
+            <div className="w-3 h-3 rounded-sm bg-[#40c463]"></div>
+            <div className="w-3 h-3 rounded-sm bg-[#30a14e]"></div>
           </div>
           <span>More</span>
         </div>

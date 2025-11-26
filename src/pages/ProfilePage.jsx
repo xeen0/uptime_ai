@@ -57,6 +57,7 @@ export default function ProfilePage() {
     <div className="p-6 w-full">
       <form onSubmit={handleSearch} className="flex gap-3 mb-10">
         <input
+          type="text"
           value={input}
           onChange={(e) => setInput(e.target.value)}
           className="flex-1 px-4 py-3 rounded-xl border-2 border-gray-200 transition-all duration-300"
