@@ -90,14 +90,51 @@ export default function GraphComponent({ username }) {
       <hr className="my-8 border-gray-300" />
 
       <div className="mt-4 grid md:grid-cols-2 gap-10 relative">
-        <div className="pb-4">
-          <h3 className="font-semibold text-lg mb-3">Activity overview</h3>
-          <ul className="space-y-2 text-sm">
-            <li>{activitySummary.commits || 0} commits</li>
-            <li>{activitySummary.prsOpened || 0} pull requests opened</li>
-            <li>{activitySummary.issuesOpened || 0} issues opened</li>
-            <li>{activitySummary.reviews || 0} code reviews</li>
-          </ul>
+        <div class="p-4">
+          <div class="flex gap-2 mb-4">
+            <span class="flex items-center gap-1 px-3 py-1 rounded-md text-xs bg-gray-100 border border-gray-300">
+              @UptimeAI
+            </span>
+
+            <span class="flex items-center gap-1 px-3 py-1 rounded-md text-xs bg-gray-100 border border-gray-300">
+              @opensource
+            </span>
+          </div>
+
+          <h3 class="font-semibold text-gray-800 mb-3 text-sm">
+            Activity overview
+          </h3>
+
+          <div class="flex items-start gap-2">
+            <svg
+              aria-hidden="true"
+              height="16"
+              viewBox="0 0 16 16"
+              version="1.1"
+              width="16"
+              data-view-component="true"
+              class="octicon octicon-repo flex-shrink-0 color-fg-muted mt-1 mr-2"
+            >
+              <path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"></path>
+            </svg>
+
+            <p class="text-sm text-gray-700 leading-relaxed">
+              Contributed to
+              <a href="#" class="text-blue-600 hover:underline">
+                UptimeAI/uptime_webapp
+              </a>
+              ,
+              <a href="#" class="text-blue-600 hover:underline">
+                UptimeAI/uptime_server
+              </a>
+              ,
+              <a href="#" class="text-blue-600 hover:underline">
+                UptimeAI/uptime_ml
+              </a>
+              <br />
+              and 13 other repositories
+            </p>
+          </div>
         </div>
 
         <div className="hidden md:block absolute left-1/2 top-0 h-full border-l border-gray-300"></div>
