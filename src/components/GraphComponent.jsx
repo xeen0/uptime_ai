@@ -3,7 +3,7 @@ import CalendarHeatmap from "react-calendar-heatmap";
 import "react-calendar-heatmap/dist/styles.css";
 import { getContributions } from "../utils/index";
 import RadarChart from "./RadarChart";
-import activitySummary from '../data/activitySummary.json';
+import activitySummary from "../data/activitySummary.json";
 
 export default function GraphComponent({ username }) {
   const [values, setValues] = useState(null);
@@ -87,18 +87,22 @@ export default function GraphComponent({ username }) {
         </div>
       </div>
 
-      <div className="mt-10 grid md:grid-cols-2 gap-6">
-        <div className="border rounded-lg p-4">
+      <hr className="my-8 border-gray-300" />
+
+      <div className="mt-4 grid md:grid-cols-2 gap-10 relative">
+        <div className="pb-4">
           <h3 className="font-semibold text-lg mb-3">Activity overview</h3>
           <ul className="space-y-2 text-sm">
-            <li>🟢 {activitySummary.commits || 0} commits</li>
-            <li>🟣 {activitySummary.prsOpened || 0} pull requests opened</li>
-            <li>🟠 {activitySummary.issuesOpened || 0} issues opened</li>
-            <li>💬 {activitySummary.reviews || 0} code reviews</li>
+            <li>{activitySummary.commits || 0} commits</li>
+            <li>{activitySummary.prsOpened || 0} pull requests opened</li>
+            <li>{activitySummary.issuesOpened || 0} issues opened</li>
+            <li>{activitySummary.reviews || 0} code reviews</li>
           </ul>
         </div>
 
-        <div className="border rounded-lg p-4 flex items-center justify-center">
+        <div className="hidden md:block absolute left-1/2 top-0 h-full border-l border-gray-300"></div>
+
+        <div className="flex items-center justify-center pb-4">
           <div className="text-center text-gray-500">
             <p className="text-sm">Contribution Radar</p>
             <p className="text-xs mt-1">
@@ -115,7 +119,9 @@ export default function GraphComponent({ username }) {
         </div>
       </div>
 
-      <div className="mt-10 border rounded-lg p-4">
+      <hr className="my-8 border-gray-300" />
+
+      <div className="mt-6">
         <h3 className="font-semibold text-lg mb-4">Contributor activity</h3>
 
         <div className="text-sm">
@@ -124,20 +130,20 @@ export default function GraphComponent({ username }) {
           <div className="ml-3 space-y-3">
             <div>
               <p>
-                ✓ Created <b>{activitySummary.commits || 0}</b> commits in
+                Created <b>{activitySummary.commits || 0}</b> commits in
                 repositories
               </p>
             </div>
 
             <div>
               <p>
-                ✓ Opened <b>{activitySummary.prsOpened || 0}</b> pull requests
+                Opened <b>{activitySummary.prsOpened || 0}</b> pull requests
               </p>
             </div>
 
             <div>
               <p>
-                ✓ Opened <b>{activitySummary.issuesOpened || 0}</b> issues
+                Opened <b>{activitySummary.issuesOpened || 0}</b> issues
               </p>
             </div>
           </div>
