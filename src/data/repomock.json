@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1001,
+    "name": "alpha-project",
+    "html_url": "https://github.com/user/alpha-project",
+    "fork": false,
+    "description": "An alpha version of project management tool.",
+    "language": "JavaScript",
+    "stargazers_count": 23,
+    "updated_at": "2024-08-10T12:34:56Z"
+  },
+  {
+    "id": 1002,
+    "name": "beta-lib",
+    "html_url": "https://github.com/user/beta-lib",
+    "fork": true,
+    "description": "A utility library for data transformations.",
+    "language": "TypeScript",
+    "stargazers_count": 5,
+    "updated_at": "2023-11-02T09:21:47Z"
+  },
+  {
+    "id": 1003,
+    "name": "gamma-service",
+    "html_url": "https://github.com/user/gamma-service",
+    "fork": false,
+    "description": "Backend service for user authentication.",
+    "language": "Go",
+    "stargazers_count": 42,
+    "updated_at": "2024-05-15T18:00:00Z"
+  },
+  {
+    "id": 1004,
+    "name": "delta-dashboard",
+    "html_url": "https://github.com/user/delta-dashboard",
+    "fork": false,
+    "description": "A dashboard UI built with React and Tailwind.",
+    "language": "JavaScript",
+    "stargazers_count": 110,
+    "updated_at": "2024-09-01T08:45:12Z"
+  },
+  {
+    "id": 1005,
+    "name": "epsilon-cli",
+    "html_url": "https://github.com/user/epsilon-cli",
+    "fork": false,
+    "description": "Command-line tool for file operations.",
+    "language": "Python",
+    "stargazers_count": 7,
+    "updated_at": "2023-12-22T14:05:33Z"
+  },
+  {
+    "id": 1006,
+    "name": "zeta-utils",
+    "html_url": "https://github.com/user/zeta-utils",
+    "fork": true,
+    "description": "Collection of utility functions.",
+    "language": "Ruby",
+    "stargazers_count": 3,
+    "updated_at": "2022-10-11T11:11:11Z"
+  },
+  {
+    "id": 1007,
+    "name": "eta-server",
+    "html_url": "https://github.com/user/eta-server",
+    "fork": false,
+    "description": "Express.js server for handling requests.",
+    "language": "JavaScript",
+    "stargazers_count": 15,
+    "updated_at": "2024-07-20T20:20:20Z"
+  },
+  {
+    "id": 1008,
+    "name": "theta-ml",
+    "html_url": "https://github.com/user/theta-ml",
+    "fork": false,
+    "description": "ML model training and inference utilities.",
+    "language": "Python",
+    "stargazers_count": 88,
+    "updated_at": "2024-08-30T13:14:15Z"
+  },
+  {
+    "id": 1009,
+    "name": "iota-docs",
+    "html_url": "https://github.com/user/iota-docs",
+    "fork": true,
+    "description": "Documentation site for internal tools.",
+    "language": "Markdown",
+    "stargazers_count": 0,
+    "updated_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": 1010,
+    "name": "kappa-experiments",
+    "html_url": "https://github.com/user/kappa-experiments",
+    "fork": false,
+    "description": "Experimental code snippets and prototypes.",
+    "language": "C++",
+    "stargazers_count": 12,
+    "updated_at": "2023-08-05T07:45:00Z"
+  },
+  {
+    "id": 1011,
+    "name": "lambda-api",
+    "html_url": "https://github.com/user/lambda-api",
+    "fork": false,
+    "description": "Serverless API with AWS Lambda and Node.js",
+    "language": "JavaScript",
+    "stargazers_count": 34,
+    "updated_at": "2024-03-12T16:00:00Z"
+  },
+  {
+    "id": 1012,
+    "name": "mu-frontend",
+    "html_url": "https://github.com/user/mu-frontend",
+    "fork": false,
+    "description": "Frontend using Vue.js for the MU project.",
+    "language": "JavaScript",
+    "stargazers_count": 19,
+    "updated_at": "2024-06-18T10:30:00Z"
+  },
+  {
+    "id": 1013,
+    "name": "nu-backend",
+    "html_url": "https://github.com/user/nu-backend",
+    "fork": true,
+    "description": "Node.js + Express backend microservice.",
+    "language": "JavaScript",
+    "stargazers_count": 9,
+    "updated_at": "2023-05-05T05:05:05Z"
+  },
+  {
+    "id": 1014,
+    "name": "xi-game",
+    "html_url": "https://github.com/user/xi-game",
+    "fork": false,
+    "description": "A small 2D platformer game built with Unity.",
+    "language": "C#",
+    "stargazers_count": 57,
+    "updated_at": "2024-02-02T22:22:22Z"
+  },
+  {
+    "id": 1015,
+    "name": "omicron-data",
+    "html_url": "https://github.com/user/omicron-data",
+    "fork": false,
+    "description": "Data processing pipelines in Scala/Spark.",
+    "language": "Scala",
+    "stargazers_count": 44,
+    "updated_at": "2024-04-04T11:11:11Z"
+  },
+  {
+    "id": 1016,
+    "name": "pi-utils",
+    "html_url": "https://github.com/user/pi-utils",
+    "fork": false,
+    "description": "Helpers and utilities for data parsing.",
+    "language": "Rust",
+    "stargazers_count": 6,
+    "updated_at": "2024-01-15T09:00:00Z"
+  },
+  {
+    "id": 1017,
+    "name": "rho-monitor",
+    "html_url": "https://github.com/user/rho-monitor",
+    "fork": false,
+    "description": "Monitoring service for metrics collection.",
+    "language": "Go",
+    "stargazers_count": 21,
+    "updated_at": "2023-09-30T14:30:00Z"
+  },
+  {
+    "id": 1018,
+    "name": "sigma-visualizer",
+    "html_url": "https://github.com/user/sigma-visualizer",
+    "fork": false,
+    "description": "Visualization tools for data analytics.",
+    "language": "TypeScript",
+    "stargazers_count": 75,
+    "updated_at": "2024-07-07T07:07:07Z"
+  },
+  {
+    "id": 1019,
+    "name": "tau-lib",
+    "html_url": "https://github.com/user/tau-lib",
+    "fork": true,
+    "description": "A low-level C library for system utilities.",
+    "language": "C",
+    "stargazers_count": 2,
+    "updated_at": "2022-12-12T12:12:12Z"
+  },
+  {
+    "id": 1020,
+    "name": "upsilon-service",
+    "html_url": "https://github.com/user/upsilon-service",
+    "fork": false,
+    "description": "Microservice for user authentication and auth-flows.",
+    "language": "Java",
+    "stargazers_count": 66,
+    "updated_at": "2024-05-25T19:45:00Z"
+  },
+  {
+    "id": 1021,
+    "name": "phi-frontend",
+    "html_url": "https://github.com/user/phi-frontend",
+    "fork": false,
+    "description": "Frontend using React and Redux for a SaaS dashboard.",
+    "language": "JavaScript",
+    "stargazers_count": 98,
+    "updated_at": "2024-08-05T21:30:00Z"
+  },
+  {
+    "id": 1022,
+    "name": "chi-helper",
+    "html_url": "https://github.com/user/chi-helper",
+    "fork": false,
+    "description": "Helper scripts for project maintenance.",
+    "language": "Python",
+    "stargazers_count": 4,
+    "updated_at": "2023-03-14T03:03:03Z"
+  },
+  {
+    "id": 1023,
+    "name": "psi-analytics",
+    "html_url": "https://github.com/user/psi-analytics",
+    "fork": false,
+    "description": "Analytics dashboard for usage metrics.",
+    "language": "JavaScript",
+    "stargazers_count": 128,
+    "updated_at": "2024-09-11T06:22:00Z"
+  },
+  {
+    "id": 1024,
+    "name": "omega-engine",
+    "html_url": "https://github.com/user/omega-engine",
+    "fork": true,
+    "description": "Game engine core components in C++.",
+    "language": "C++",
+    "stargazers_count": 11,
+    "updated_at": "2023-07-07T17:17:17Z"
+  },
+  {
+    "id": 1025,
+    "name": "alpha-2",
+    "html_url": "https://github.com/user/alpha-2",
+    "fork": false,
+    "description": "Second generation of alpha-project with new features.",
+    "language": "TypeScript",
+    "stargazers_count": 54,
+    "updated_at": "2024-06-30T12:00:00Z"
+  },
+  {
+    "id": 1026,
+    "name": "beta-cli",
+    "html_url": "https://github.com/user/beta-cli",
+    "fork": false,
+    "description": "CLI tools for DevOps automation.",
+    "language": "Python",
+    "stargazers_count": 8,
+    "updated_at": "2024-02-20T10:10:10Z"
+  },
+  {
+    "id": 1027,
+    "name": "gamma-core",
+    "html_url": "https://github.com/user/gamma-core",
+    "fork": false,
+    "description": "Core modules for backend services.",
+    "language": "Go",
+    "stargazers_count": 31,
+    "updated_at": "2023-10-10T22:22:22Z"
+  },
+  {
+    "id": 1028,
+    "name": "delta-utils",
+    "html_url": "https://github.com/user/delta-utils",
+    "fork": true,
+    "description": "Utility scripts and helpers in Bash.",
+    "language": "Shell",
+    "stargazers_count": 1,
+    "updated_at": "2022-09-09T09:09:09Z"
+  },
+  {
+    "id": 1029,
+    "name": "epsilon-web",
+    "html_url": "https://github.com/user/epsilon-web",
+    "fork": false,
+    "description": "Web application built with Django.",
+    "language": "Python",
+    "stargazers_count": 29,
+    "updated_at": "2024-04-12T15:15:15Z"
+  },
+  {
+    "id": 1030,
+    "name": "zeta-data",
+    "html_url": "https://github.com/user/zeta-data",
+    "fork": false,
+    "description": "Data processing library in Rust.",
+    "language": "Rust",
+    "stargazers_count": 14,
+    "updated_at": "2023-12-01T08:00:00Z"
+  },
+  {
+    "id": 1031,
+    "name": "eta-app",
+    "html_url": "https://github.com/user/eta-app",
+    "fork": false,
+    "description": "Full-stack application using MERN stack.",
+    "language": "JavaScript",
+    "stargazers_count": 67,
+    "updated_at": "2024-07-14T13:00:00Z"
+  },
+  {
+    "id": 1032,
+    "name": "theta-lib",
+    "html_url": "https://github.com/user/theta-lib",
+    "fork": false,
+    "description": "Library for mathematical computations.",
+    "language": "C++",
+    "stargazers_count": 39,
+    "updated_at": "2024-03-03T03:03:03Z"
+  },
+  {
+    "id": 1033,
+    "name": "iota-service",
+    "html_url": "https://github.com/user/iota-service",
+    "fork": true,
+    "description": "Microservice for notifications.",
+    "language": "Java",
+    "stargazers_count": 22,
+    "updated_at": "2024-05-05T05:05:05Z"
+  },
+  {
+    "id": 1034,
+    "name": "kappa-web",
+    "html_url": "https://github.com/user/kappa-web",
+    "fork": false,
+    "description": "Static website generator written in Rust.",
+    "language": "Rust",
+    "stargazers_count": 16,
+    "updated_at": "2024-06-06T06:06:06Z"
+  },
+  {
+    "id": 1035,
+    "name": "lambda-engine",
+    "html_url": "https://github.com/user/lambda-engine",
+    "fork": false,
+    "description": "Engine for data transformations and ETL jobs.",
+    "language": "Python",
+    "stargazers_count": 48,
+    "updated_at": "2024-02-14T12:12:12Z"
+  },
+  {
+    "id": 1036,
+    "name": "mu-mobile",
+    "html_url": "https://github.com/user/mu-mobile",
+    "fork": false,
+    "description": "Mobile frontend built with React Native.",
+    "language": "JavaScript",
+    "stargazers_count": 27,
+    "updated_at": "2024-08-08T08:08:08Z"
+  },
+  {
+    "id": 1037,
+    "name": "nu-sdk",
+    "html_url": "https://github.com/user/nu-sdk",
+    "fork": true,
+    "description": "SDK for internal tooling.",
+    "language": "TypeScript",
+    "stargazers_count": 13,
+    "updated_at": "2023-04-04T04:04:04Z"
+  },
+  {
+    "id": 1038,
+    "name": "xi-plugin",
+    "html_url": "https://github.com/user/xi-plugin",
+    "fork": false,
+    "description": "Plugin for a text editor.",
+    "language": "Rust",
+    "stargazers_count": 9,
+    "updated_at": "2022-08-08T08:08:08Z"
+  },
+  {
+    "id": 1039,
+    "name": "omicron-core",
+    "html_url": "https://github.com/user/omicron-core",
+    "fork": false,
+    "description": "Core backend modules in Java.",
+    "language": "Java",
+    "stargazers_count": 55,
+    "updated_at": "2024-01-20T20:20:20Z"
+  },
+  {
+    "id": 1040,
+    "name": "pi-dashboard",
+    "html_url": "https://github.com/user/pi-dashboard",
+    "fork": false,
+    "description": "Analytics dashboard built with Angular.",
+    "language": "TypeScript",
+    "stargazers_count": 32,
+    "updated_at": "2024-09-05T09:45:00Z"
+  },
+  {
+    "id": 1041,
+    "name": "rho-app",
+    "html_url": "https://github.com/user/rho-app",
+    "fork": false,
+    "description": "Full-stack app using Django + React.",
+    "language": "Python",
+    "stargazers_count": 71,
+    "updated_at": "2024-03-18T18:18:18Z"
+  },
+  {
+    "id": 1042,
+    "name": "sigma-toolkit",
+    "html_url": "https://github.com/user/sigma-toolkit",
+    "fork": true,
+    "description": "Toolkits for data analysis.",
+    "language": "C#",
+    "stargazers_count": 18,
+    "updated_at": "2023-09-09T09:09:09Z"
+  },
+  {
+    "id": 1043,
+    "name": "tau-service",
+    "html_url": "https://github.com/user/tau-service",
+    "fork": false,
+    "description": "RESTful API server in Go.",
+    "language": "Go",
+    "stargazers_count": 24,
+    "updated_at": "2024-04-25T13:13:13Z"
+  },
+  {
+    "id": 1044,
+    "name": "upsilon-ui",
+    "html_url": "https://github.com/user/upsilon-ui",
+    "fork": false,
+    "description": "UI components library built in Vue.",
+    "language": "JavaScript",
+    "stargazers_count": 65,
+    "updated_at": "2024-07-22T22:22:22Z"
+  },
+  {
+    "id": 1045,
+    "name": "phi-cli",
+    "html_url": "https://github.com/user/phi-cli",
+    "fork": true,
+    "description": "CLI for internal tooling.",
+    "language": "Rust",
+    "stargazers_count": 10,
+    "updated_at": "2023-06-06T06:06:06Z"
+  },
+  {
+    "id": 1046,
+    "name": "chi-dashboard",
+    "html_url": "https://github.com/user/chi-dashboard",
+    "fork": false,
+    "description": "Dashboard for analytics and metrics.",
+    "language": "JavaScript",
+    "stargazers_count": 47,
+    "updated_at": "2024-02-28T12:12:12Z"
+  },
+  {
+    "id": 1047,
+    "name": "psi-service",
+    "html_url": "https://github.com/user/psi-service",
+    "fork": false,
+    "description": "Background service for asynchronous tasks.",
+    "language": "Python",
+    "stargazers_count": 28,
+    "updated_at": "2024-05-30T11:11:11Z"
+  },
+  {
+    "id": 1048,
+    "name": "omega-frontend",
+    "html_url": "https://github.com/user/omega-frontend",
+    "fork": false,
+    "description": "Frontend for Omega project using Svelte.",
+    "language": "JavaScript",
+    "stargazers_count": 33,
+    "updated_at": "2024-06-15T15:15:15Z"
+  },
+  {
+    "id": 1049,
+    "name": "alpha-core",
+    "html_url": "https://github.com/user/alpha-core",
+    "fork": false,
+    "description": "Core modules for alpha project.",
+    "language": "C++",
+    "stargazers_count": 41,
+    "updated_at": "2024-04-04T04:04:04Z"
+  },
+  {
+    "id": 1050,
+    "name": "beta-service",
+    "html_url": "https://github.com/user/beta-service",
+    "fork": false,
+    "description": "Service for handling background jobs.",
+    "language": "Python",
+    "stargazers_count": 22,
+    "updated_at": "2024-03-03T03:03:03Z"
+  }
+]

@@ -2,6 +2,7 @@ import { useParams, NavLink, useNavigate, useLocation } from "react-router-dom";
 import { useEffect, useState, useMemo } from "react";
 
 import OverviewPage from "./OverviewPage";
+import RepositoriesPage from "./RepositoryPage";
 
 export default function ProfilePage() {
   const { username } = useParams();
@@ -90,7 +91,7 @@ export default function ProfilePage() {
                   <OverviewPage user={memoUser} />
                 </div>
                 <div className={currentTab === "repositories" ? "" : "hidden"}>
-                  <h1> Repository Page</h1>
+                  <RepositoriesPage user={memoUser} />
                 </div>
                 <div className={currentTab === "projects" ? "" : "hidden"}>
                   <h1>Projects Page</h1>
