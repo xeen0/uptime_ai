@@ -1,0 +1,38 @@
+{
+  "commits": 142,
+  "prsOpened": 27,
+  "issuesOpened": 9,
+  "reviews": 34,
+  "repoBreakdown": {
+    "frontend": 58,
+    "backend": 42,
+    "devops": 22,
+    "ai_ml": 20
+  },
+  "monthlyActivity": {
+    "Jan": 12,
+    "Feb": 18,
+    "Mar": 24,
+    "Apr": 9,
+    "May": 16,
+    "Jun": 20,
+    "Jul": 14,
+    "Aug": 29,
+    "Sep": 11,
+    "Oct": 22,
+    "Nov": 18,
+    "Dec": 16
+  },
+  "languagesUsed": {
+    "JavaScript": 57,
+    "Python": 33,
+    "TypeScript": 25,
+    "Shell": 12,
+    "Others": 7
+  },
+  "prsMerged": 19,
+  "issuesClosed": 13,
+  "activeRepositories": 11,
+  "starsGained": 48,
+  "contributions": 286
+}

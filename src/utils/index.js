@@ -43,3 +43,7 @@ export const getRepos = async ({ search = "", page = 1, per_page = 10 } = {}) =>
     }, 100); 
   });
 };
+
+export const getPopularRepos = async () => {
+  return reposData.slice(0, 6);
+}
