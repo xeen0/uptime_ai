@@ -121,33 +121,88 @@ export default function GraphComponent({ username }) {
 
       <hr className="my-8 border-gray-300" />
 
-      <div className="mt-6">
-        <h3 className="font-semibold text-lg mb-4">Contributor activity</h3>
+      <div class="mt-10 bg-white">
+        <h3 class="font-semibold text-lg mb-4">Contribution activity</h3>
 
-        <div className="text-sm">
-          <p className="font-medium mb-2">October 2025</p>
+        <p class="font-medium text-sm mb-4 text-gray-700">October 2025</p>
 
-          <div className="ml-3 space-y-3">
-            <div>
-              <p>
-                Created <b>{activitySummary.commits || 0}</b> commits in
-                repositories
-              </p>
-            </div>
+        <div class="relative ml-2 pl-6 border-l border-gray-300 space-y-10">
+          <div class="relative">
+            <span class="absolute -left-3 top-1 w-2.5 h-2.5 bg-gray-400 rounded-full"></span>
 
-            <div>
-              <p>
-                Opened <b>{activitySummary.prsOpened || 0}</b> pull requests
-              </p>
-            </div>
+            <p class="text-sm font-medium text-gray-800">
+              Created <b class="font-semibold">56 commits</b> in 11 repositories
+            </p>
 
-            <div>
-              <p>
-                Opened <b>{activitySummary.issuesOpened || 0}</b> issues
-              </p>
-            </div>
+            <ul class="mt-3 ml-4 space-y-1 text-sm text-blue-600 underline cursor-pointer">
+              <li>UptimeAI/uptime_webapp</li>
+              <li>UptimeAI/uptime_ml</li>
+              <li>UptimeAI/uptime_scripts</li>
+            </ul>
+          </div>
+
+          <div class="relative">
+            <span class="absolute -left-3 top-1 w-2.5 h-2.5 bg-gray-400 rounded-full"></span>
+
+            <p class="text-sm font-medium text-gray-800">
+              Opened <b class="font-semibold">29 pull requests</b> in 5
+              repositories
+            </p>
+
+            <ul class="mt-4 ml-4 space-y-3 text-sm">
+              <li class="flex items-center justify-between">
+                <span class="text-blue-600 underline cursor-pointer">
+                  UptimeAI/uptime_webapp
+                </span>
+                <span class="flex items-center gap-2">
+                  <span class="text-xs bg-purple-100 text-purple-700 px-2 py-0.5 rounded-md">
+                    merged
+                  </span>
+                  <span class="text-xs bg-green-100 text-green-700 px-2 py-0.5 rounded-md">
+                    open
+                  </span>
+                </span>
+              </li>
+
+              <li class="flex items-center justify-between">
+                <span class="text-blue-600 underline cursor-pointer">
+                  UptimeAI/uptime_ml
+                </span>
+                <span class="text-xs bg-purple-100 text-purple-700 px-2 py-0.5 rounded-md">
+                  merged
+                </span>
+              </li>
+
+              <li class="flex items-center justify-between">
+                <span class="text-blue-600 underline cursor-pointer">
+                  UptimeAI/uptime_scripts
+                </span>
+                <span class="text-xs bg-purple-100 text-purple-700 px-2 py-0.5 rounded-md">
+                  merged
+                </span>
+              </li>
+
+              <li class="flex items-center justify-between">
+                <span class="text-blue-600 underline cursor-pointer">
+                  UptimeAI/uptime_mi
+                </span>
+                <span class="text-xs bg-purple-100 text-purple-700 px-2 py-0.5 rounded-md">
+                  merged
+                </span>
+              </li>
+            </ul>
           </div>
         </div>
+
+        <div class="mt-8 flex justify-center">
+          <button class="px-4 py-2 text-sm border w-full border-gray-300 rounded-lg bg-gray-50 hover:bg-gray-100 transition">
+            Show more activity
+          </button>
+        </div>
+
+        <p class="text-xs text-gray-500 mt-4">
+          Seeing something unexpected? Take a look at the GitHub profile guide.
+        </p>
       </div>
     </div>
   );
